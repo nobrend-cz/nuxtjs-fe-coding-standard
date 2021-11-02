@@ -18,7 +18,7 @@ $ npm i stylelint stylelint-webpack-plugin -D
 4. Install FE coding standard
 
 ```sh
-$ npm i git+ssh://git@10.10.4.30:adb/fe-coding-standard.git#semver:^1.0.2 -D
+$ npm i git+https://github.com/nobrend-cz/fe-coding-standard.git -D
 ```
 
 5. Modify `nuxt.config.js`
@@ -98,7 +98,7 @@ Your `devDependencies` in `package.json` should look similar to this now:
     "eslint": "^7.8.1",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-vue": "^6.2.2",
-    "fe-coding-standard": "git+ssh://git@10.10.4.30:adb/fe-coding-standard.git#semver:^1.0.2",
+    "fe-coding-standard": "git+https://github.com/nobrend-cz/fe-coding-standard.git",
     "stylelint": "^13.7.0",
     "stylelint-webpack-plugin": "^2.1.0"
   }
